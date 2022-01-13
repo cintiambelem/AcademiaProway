@@ -1,0 +1,99 @@
+body{
+    background: #5b6d8f;
+}
+#conteudo{
+    background: #f2fad0;
+    width: 80%;
+    margin: 60px auto;
+    padding:  150px 40px;
+    text-align: center;
+}
+h1{
+    color: #5b6d8f;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 20px 5%;
+    text-align: center;
+    margin: 15;
+}
+
+label{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #0d3786;
+    
+}
+
+input{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+input[type="submit"], button{ /* estilo botao salvar*/
+    cursor: pointer;
+    background: #25af5a;
+    color: #fff;
+    display: inline-block;
+    height: 35px;
+    width: 50%; 
+   
+}
+
+button{
+    background: #f3e6e6;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    color: #f00;
+    background: #fff;
+    border: #ffff;
+    border: #f00 1px solid;
+}
+
+input[type="submit"]:hover{
+    background: #fff;
+    color: #25af5a;
+    border: 5px solid #25af5a;
+    
+}
+
+a{
+    background: #fff;
+    color: #25af5a;
+    border-radius: 20px solid #25af5a
+    
+}
+a:hover{
+    color: #25af5a;
+    background: #fff;
+    border: #ffff;
+    border: #25af5a 1px solid;
+    
+}
+
+.labels{
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+}
+form{
+    margin: 0px auto;
+    border: 1px solid #000;
+    width: 30%;
+    padding: 20px 10%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,10 @@
+<h3>Cadastro de clientes</h3>
+<form (ngSubmit)="salvar()">
+    <label for="id">Id:</label>
+    <input type="text" name="id" id="id" [(ngModel)]="id" /> <br>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" [(ngModel)]="nome"/> <br>
+    <label for="tipo">Tipo de cliente:</label>
+    <input type="text" name="tipo" id="tipo" [(ngModel)]="tipoCliente" /> <br>
+    <input type="submit" value="Salvar">
+</form>
